@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;1,100;1,500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(33, 10, 104);
+    margin: 0 auto;
+    padding: 10px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li#head{
+    display: inline-block;
+    margin: 10px;
+}
+a {
+    text-decoration: none;
+}
+
+div#title{
+    color: rgb(255, 255, 255);
+    line-height: 8px;
+    text-shadow: 4px 1px 0px rgb(0, 0, 0);
+}
+h1#now{
+    text-align: center;
+
+}
+a:hover{
+    color: rgb(184, 14, 136);
+    transition: 0.3s;
+}
+main{
+    flex-direction: column;
+    margin-top: 60px;
+}
+section{
+    background: white;
+    margin: auto;
+    width: 550px;
+    height: 30rem;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px;
+}
+footer{
+    margin: auto;
+    color: rgb(155, 2, 112)
+}
+footer p{
+    font-size: 15pt;
+    text-align: center;
+}
+#page2{
+    font-style: italic;
+    margin: 170px;
+    /*quando descjs estiver aberto
+    margin: 70px;*/
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+}
+ul{
+    display: none;
+}
+p{
+    margin: 0%;
+    margin-bottom: 1em;
+}
+p#pergunta:hover{
+    color: rgb(184, 14, 136);
+    transition: 0.10s;
+}
